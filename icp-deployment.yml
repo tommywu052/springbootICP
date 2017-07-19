@@ -39,7 +39,7 @@ spec:
         app: spring
     spec:
       containers:
-      - image: master.cfc:8500/default/spring-hello:v1
+      - image: master.cfc:8500/default/springboot:latest
         imagePullPolicy: Always
         name: a-spring-hello
         ports:
